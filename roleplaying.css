@@ -1,0 +1,169 @@
+body {
+    background:#fff;
+    display:grid;
+    place-items:center;
+  
+  }
+  
+  .container {
+    width:100%;
+    display:flex;
+    color:white;
+    
+  }
+
+  .cards {
+      display:flex;
+      justify-content: center;
+      gap: 1em;
+      width:100%;
+  }
+  
+  #hero-card {
+    background: #381600;
+    width:30%;
+    border: 2px solid black;
+    border-radius:1em;
+    display:flex;
+    flex-direction:column;
+    
+  }
+  
+  #monster-card {
+    background: #381600;
+    width:30%;
+    border: 2px solid black;
+    border-radius:1em;
+    display:flex;
+    flex-direction:column;
+    
+  
+  }
+  
+  #wizard-header,
+  #orc-header {
+    text-align:center;
+  }
+  
+  #wizard-health-el,
+  #orc-health-el{
+    margin-left:1em;
+  }
+  
+  .bio {
+    background: #381600;
+  }
+  
+  #Wizard-img {
+  width: 100%;
+ 
+    
+    
+  }
+  
+  #Orc-img {
+  width:100%;
+   
+  }
+  
+  #Demon-img {
+    width:70%;
+  }
+  
+  #Goblin-img {
+    width:100%;
+  }
+  
+  .dice-area {
+    background:#4d0245;
+    text-align:center;
+    padding-bottom:2em;
+    display:flex;
+    jusify-content: space-around;
+    width:100%;
+    
+    
+  }
+  
+  .dice {
+    background: white;
+    color:black;
+    width:7%;
+    margin:0 auto;
+    
+  font-size:4rem;
+    margin-top: 0.6em;
+  }
+  
+  .attack-area {
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+  }
+  
+  #attack-btn {
+  
+    border: 1px solid red;
+    padding: 1.5em;
+    
+    margin-top:2em;
+  }
+  
+  @media screen and (max-width:700px){
+    .container {
+      width:90%;
+    }
+    
+    .cards {
+      display:flex;
+      justify-content:center;
+      width:90%;
+      margin: 0 auto;
+      gap: 2rem;
+    }
+    
+    .dice {
+      font-size:2rem;
+      width:10%;
+    }
+    
+    #attack-btn {
+      
+    }
+  }
+  
+  .placeholder-dice {
+   background: white;
+    color:black;
+    width:7%;
+    margin:0 auto;
+    font-size:3rem;
+    margin-top: 0.6em;
+    
+  }
+  
+  #endgame-msg{
+    font-size: 4rem;
+    text-align:center;
+    color: red;
+    background: black;
+    font-weight: 700;
+    
+  }
+  
+  .health-bar-outer {
+    border: 10px solid black;
+   
+    height: 10px;
+  }
+  .health-bar-inner {
+    background: green;
+    border: 1px solid green;
+  }
+  
+  .danger {
+    color: red;
+    background: red;
+    border: 1px solid darkred;
+  }
+  
